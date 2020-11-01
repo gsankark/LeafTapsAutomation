@@ -1,3 +1,6 @@
+  
+pipeline {
+    agent any
 stages {
     stage('Development Build') {
       steps {
@@ -43,4 +46,5 @@ stages {
       }
     }
   }
+}
 
